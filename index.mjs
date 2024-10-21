@@ -3,7 +3,7 @@ export const handler = async (event) => {
     // TODO implement
 
 
-    log('Log de execução, event: ' + JSON.stringify(event));
+    log('Log de execução após GitHub Action, event: ' + JSON.stringify(event));
 
     return{
         statusCode: 200,
